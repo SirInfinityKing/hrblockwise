@@ -9,7 +9,7 @@ api.py - uruchamia się automatycznie przy starcie streamlit API dla odczytu baz
 
 kursywalut.py - pobiera dane z API wybranych kursów walut + uruchamia przelicznik.py
 
-# W przypadku zadania nie trzeba było jej tworzyć, lecz zachowując logikę skalowalności, można ją rozbudować o kolejne funkcje
+W przypadku zadania nie trzeba było jej tworzyć, lecz zachowując logikę skalowalności, można ją rozbudować o kolejne funkcje
 przelicznik.py - autonomiczna aplikacja obserwująca zmiany w bazie danych co 60 sekund. Jeśli nastąpią zmiany <pobranie nowych danych> przelicza dodatkowe pary i dodaje je do bazy.
 
 wyswietl_dane.py - prosty skrypt do sprawdzenia co się znajduje w bazie danych w konsoli - uruchamiany tylko w konsoli
